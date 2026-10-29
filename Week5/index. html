@@ -23,7 +23,7 @@
     <p>CSS Style Tag Setup Done.</p>
 
 
-    /* 5.2: Using 4 different selector types */
+     /* 5.2: Using 4 different selector types */
 
 /* 1. Universal Selector (All elements) */
 * {
@@ -46,11 +46,11 @@ h1 {
     text-align: center;
 }
 
-  <!-- 5.3: Google Font Link -->
+        <!-- 5.3: Google Font Link -->
 <link href="https://googleapis.com" rel="stylesheet">
 
 <style>
-    /* 5.3: Setting fonts, colours, font size and line-height */
+        /* 5.3: Setting fonts, colours, font size and line-height */
     body {
         font-family: 'Poppins', sans-serif;
         color: #333333;
@@ -59,6 +59,21 @@ h1 {
     }
 </style>
 
+          /* 5.4: Keeping colours and spacing in :root variables and using var() */
+:root {
+    --primary-blue: #0070f3;
+    --text-dark: #222222;
+    --spacing-layout: 20px;
+}
+
+body {
+    color: var(--text-dark);
+    padding: var(--spacing-layout);
+}
+
+h1 {
+    color: var(--primary-blue);
+}
 
 
 
