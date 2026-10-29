@@ -14,3 +14,12 @@
 _blank">Google</a>
 </nav>
   </header>
+
+  <main>
+    <section>
+       <h2>My Profile</h2>
+
+        <img src="subaru.jpg"
+         alt="profile pic hasnt been loaded"
+         width="300">
+ </section>
