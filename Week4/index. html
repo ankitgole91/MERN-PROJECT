@@ -79,6 +79,132 @@ Tech Club events and student registration page> <meta name="author" content="Vai
     <button type="submit">Submit</button>
 </form>
 
+<!--events table with a heading row, body rows and a footer row -->
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Event Name</th>
+            <th>Date</th>
+            <th>Location</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Tech Conference 2026</td>
+            <td>November 15, 2026</td>
+            <td>New Delhi</td>
+            <td>₹1500</td>
+        </tr>
+        <tr>
+            <td>Web Dev Workshop</td>
+            <td>December 05, 2026</td>
+            <td>Mumbai</td>
+            <td>₹800</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="3">Total Events: 2</td>
+            <td>Avg: ₹1150</td>
+        </tr>
+    </tfoot>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
