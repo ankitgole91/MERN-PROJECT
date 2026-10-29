@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8"> 
+<meta name="viewport content="width=device-w idth, initial-scale=1.0">
+
+<title>Tech Club</title>
+
+   <link rel="preconnect href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com /css2?family=Poppins:
+      wght@400;500;600;700&display =swap" rel="stylesheet">
+
+      <!-- 5.1: Writing CSS inside style tag (later can be moved to style.css) -->
+    <style>
+        body {
+            background-color: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <p>CSS Style Tag Setup Done.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
 
