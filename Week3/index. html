@@ -48,20 +48,29 @@ _blank">Google</a>
   <p><strong>Date:</strong> October 27, 2026</p>
 
  <p>
-Today, I learned how to create a portfol
-
+         Today, I learned how to create a portfol
 io website
 
- using HTML. I practiced links, images, n
-
+         using HTML. I practiced links, images, n
 ested lists,
 
-and semantic HTML elements. I look forwa
-
+         and semantic HTML elements. I look forwa
 rd to learning
 
-CSS and JavaScript to improve my web dev
-
+         CSS and JavaScript to improve my web dev
 elopment skills.
   </p>
    </article>
+
+ <aside>
+    <h3>My Goal</h3>
+    <p>I want to become a web developer.</p>
+  </aside>
+</main>
+
+ <footer>
+   <p>My Portfolio 2026</p>
+</footer>
+
+ </body>
+</html>
