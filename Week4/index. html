@@ -22,6 +22,16 @@ Tech Club events and student registration page> <meta name="author" content="Vai
     <div>
         <label for="name">Ankit Gole:</label>
         <input type="text" id="name" name="name" required>
+
+             <nav>
+          <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
     </div>
     <br>
     <div>
@@ -34,6 +44,7 @@ Tech Club events and student registration page> <meta name="author" content="Vai
         <input type="password" id="password" name="password" required>
     </div>
 </form>
+<header>
 
 <! Add date, phone, radio buttons, checkboxes, a dropdown (select), a message box (textarea) and a submit button>
 
@@ -126,97 +137,6 @@ Tech Club events and student registration page> <meta name="author" content="Vai
     
     <title>Event Project</title>
 </head>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
