@@ -23,3 +23,22 @@ _blank">Google</a>
          alt="profile pic hasnt been loaded"
          width="300">
  </section>
+
+<section>
+  <h2>My Courses</h2>
+    <ul>
+      <li>Web Development
+         <ul>
+             <li>HTML</li>
+             <li>CSS</li>
+             <li>JavaScript</li>
+       </ul>
+    </li>
+             <li>Programming
+        <ul>
+            <li>C Programming</li>
+            <li>Java</li>
+       </ul>
+     </li>
+  </ul>
+</section>
