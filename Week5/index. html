@@ -23,7 +23,7 @@
     <p>CSS Style Tag Setup Done.</p>
 
 
-     /* 5.2: Using 4 different selector types */
+     <!--/* 5.2: Using 4 different selector types */>
 
 /* 1. Universal Selector (All elements) */
 * {
@@ -59,7 +59,7 @@ h1 {
     }
 </style>
 
-          /* 5.4: Keeping colours and spacing in :root variables and using var() */
+          <!--/* 5.4: Keeping colours and spacing in :root variables and using var() */-->
 :root {
     --primary-blue: #0070f3;
     --text-dark: #222222;
@@ -75,10 +75,11 @@ h1 {
     color: var(--primary-blue);
 }
 
+   <!-- 5.5: Tested in DevTools. Reasons for choosing these colors:-->
 
-
-
-
+1. Primary Blue (#0070f3): I chose this for headers because it gives a tech-forward, clean, and modern look to the brand.
+2. Text Dark (#222222): Using soft dark grey instead of pitch black reduces eye strain for readers.
+3. Light Background (#fafafa): A subtle off-white background makes the layout feel spacious and premium.
 
 
 </body>
