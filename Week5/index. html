@@ -46,7 +46,18 @@ h1 {
     text-align: center;
 }
 
+  <!-- 5.3: Google Font Link -->
+<link href="https://googleapis.com" rel="stylesheet">
 
+<style>
+    /* 5.3: Setting fonts, colours, font size and line-height */
+    body {
+        font-family: 'Poppins', sans-serif;
+        color: #333333;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+</style>
 
 
 
