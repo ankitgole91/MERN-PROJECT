@@ -23,6 +23,28 @@
     <p>CSS Style Tag Setup Done.</p>
 
 
+    /* 5.2: Using 4 different selector types */
+
+/* 1. Universal Selector (All elements) */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Element Selector */
+h1 {
+    color: blue;
+}
+
+/* 3. Class Selector */
+.card {
+    background: white;
+}
+
+/* 4. ID Selector */
+#hero {
+    text-align: center;
+}
 
 
 
