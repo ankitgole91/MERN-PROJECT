@@ -18,7 +18,7 @@ Tech Club events and student registration page> <meta name="author" content="Vai
 <!--Form (Name, Email, Password)-->
 
  <header>
-   <form action="#" method="POST">
+   <form>
     <div>
         <label for="name">Ankit Gole:</label>
         <input type="text" id="name" name="name" required>
@@ -35,6 +35,49 @@ Tech Club events and student registration page> <meta name="author" content="Vai
     </div>
 </form>
 
+<! Add date, phone, radio buttons, checkboxes, a dropdown (select), a message box (textarea) and a submit button>
+
+<form >
+    <div>
+        <label for="event-date">November 3 2026:</label>
+        <input type="date" id="event-date" name="event_date">
+    </div>
+    <br>
+    <div>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone">
+    </div>
+    <br>
+    <div>
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+    </div>
+    <br>
+    <div>
+        <input type="checkbox" id="terms" name="terms" value="agreed">
+        <label for="terms">I agree to the terms and conditions</label>
+    </div>
+    <br>
+    <div>
+        <label for="city">City:</label>
+        <select id="city" name="city">
+            <option value="delhi">Delhi</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="bareilly ">Bareilly</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+    </div>
+    <br>
+    <button type="submit">Submit</button>
+</form>
 
 
 
