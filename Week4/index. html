@@ -112,6 +112,23 @@ Tech Club events and student registration page> <meta name="author" content="Vai
     </tfoot>
 </table>
 
+<--Meta Tags aur Favicon (<head> ke andar dalne ke liye)>
+
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Event registration and information portal.">
+    <meta name="keywords" content="HTML, Events, Registration, Form">
+    <meta name="author" content="Your Name">
+    
+    <!-- Favicon link (Apni icon file ka path check kar lein) -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+    <title>Event Project</title>
+</head>
+
+
+
 
 
 
