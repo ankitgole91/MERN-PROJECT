@@ -1,1 +1,52 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Layout Assignment (6.1 - 6.5)</title>
+  
+  <style>
+  
+     <!-- YAHAN SE AAPKA SHURU HOTA HAI: BOX-SIZING & BOX MODEL -->
+       
+    *, *::before, *::after {
+      box-sizing: border-box; /* 6.1: Keeps padding and border inside the specified width/height */
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f6f9;
+      color: #333333;
+      min-height: 150vh; /* Extended page height to thoroughly test scrolling behaviors */
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <main class="main-container">
+
+    <!--[HTML SECTION]CARD VERSION(LIGHT THEME)-->
+    <section class="profile-card profile-card--light">
+      <div class="profile-card__avatar-container">
+
+        <!-- Circle Avatar -->
+
+        <img class="profile-card__avatar" src="https://picsum.photos" alt="User Light Avatar">
+      </div>
+      <h2 class="profile-card__name">Aman Sharma (Light)</h2>
+      
+      <!-- Scrollable Bio Box with Fixed Height -->
+
+      <div class="profile-card__bio">
+        <p>This is the light themed profile card variation. Following the box model specifications outlined in 6.1, custom padding, border widths, and outer margins have been thoroughly configured. In strict accordance with rule 6.3, this specific container features a strict fixed height constraint combined with auto-overflow rendering to guarantee intuitive vertical scroll mechanics for end-users whenever the inner text overflows.</p>
+      </div>
+    </section>
+
+
+</body>
+</html>
