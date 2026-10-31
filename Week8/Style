@@ -48,6 +48,25 @@
 .main-area { grid-area: main; background-color: #d4edda; padding: 20px; min-height: 200px; }
 .footer-area { grid-area: foot; background-color: #fff3cd; padding: 20px; }
 
+.grid-flex-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.grid-flex-box {
+  display: flex; /* Embeds Flexbox layout context inside the active Grid cell */
+  align-items: center; /* Aligns both the icon and text perfectly center on the cross axis */
+  gap: 12px; /* Generates spacing between the inline icon element and text node */
+  background-color: #6c757d;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.box-icon { font-size: 1.5rem; }
+.box-text { font-weight: bold; }
 
 
 
