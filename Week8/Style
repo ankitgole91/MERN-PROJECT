@@ -1,1 +1,21 @@
+<style>
 
+.grid-container-basic {
+  display: grid; /* Activates grid layout context */
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Defines 4 equal columns using fractional units */
+  gap: 20px; /* Specifies spacing distance between grid items */
+  padding: 20px;
+}
+
+.grid-box {
+  background-color: #007bff;
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 6px;
+}
+
+
+
+
+</style>
