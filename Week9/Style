@@ -92,3 +92,13 @@ html {
 .main-section { background-color: #fff; border: 1px solid #dee2e6; padding: 1rem; }
 
 
+
+@media (max-width: 768px) {
+  body { padding: 10px; }
+  .container, div { width: 100% !important; }
+  img { max-width: 100%; height: auto; }
+}
+
+
+
+
