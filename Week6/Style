@@ -1,3 +1,4 @@
+
 <!--CSS - QUESTION 6.1: BOX-SIZING & BOX MODEL EXPERIMENTATION -->
 
 /* Setting border-box globally so padding and border stay inside the width */
@@ -27,4 +28,57 @@ body {
   justify-content: center;
   font-weight: bold;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* ==========================================================================
+   CSS - QUESTION 6.2: PROFILE CARD LAYOUT, ROUND CORNERS & COLOUR VERSIONS
+   ========================================================================== */
+
+/* Layout arrangement for card grid placement */
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+/* Base Card Styling (Handles Borders and Smooth Round Corners) */
+.profile-card {
+  width: 300px;
+  border: 3px solid;       /* Card Border layout config */
+  border-radius: 16px;     /* Smoothly rounded corners */
+  padding: 25px;
+  margin: 15px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Colour Version 1: Light Theme Specifics */
+.profile-card--light {
+  background-color: #ffffff;
+  border-color: #1a73e8;   /* Clean Blue Border */
+  color: #333333;
+}
+
+/* Colour Version 2: Dark Theme Specifics */
+.profile-card--dark {
+  background-color: #1e1e1e;
+  border-color: #ff5722;   /* Vibrant Orange/Red Border */
+  color: #ffffff;
+}
+
+/* Flawless Circle Avatar Dimensions */
+.profile-card__avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;      /* Forces image into a perfect circular shape */
+  object-fit: cover;
+  border: 3px solid #666666;
+  margin-bottom: 15px;
+}
+
+.profile-card__name {
+  font-size: 1.25rem;
+  font-weight: 600;
 }
