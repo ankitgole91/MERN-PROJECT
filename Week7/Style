@@ -1,1 +1,31 @@
 
+<style>
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes the logo to the left and elements to the right */
+  align-items: center; /* Vertically aligns all items in the center */
+  padding: 15px 30px;
+  background-color: #333;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Space between the links group and the call-to-action button */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px; /* Space between individual navigation menu links */
+}
+
+
+
+
+
+
+
+
+</style>
