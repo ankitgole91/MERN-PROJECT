@@ -1,1 +1,29 @@
+<style>
+
+/* --- BASE STYLES: Mobile Screens First (Under 768px width) --- */
+.responsive-box {
+  padding: 20px;
+  background-color: #f8d7da; /* Default soft pink tint for mobile screens */
+  text-align: center;
+  border: 2px solid #dc3545;
+}
+
+/* --- TABLET BREAKPOINT: Scaled at 768px layout viewports and above --- */
+@media (min-width: 768px) {
+  .responsive-box {
+    background-color: #d1ecf1; /* Transitions to light cyan tint on tablets */
+    border-color: #17a2b8;
+    padding: 40px;
+  }
+}
+
+/* --- DESKTOP BREAKPOINT: Scaled at 1024px layout viewports and above --- */
+@media (min-width: 1024px) {
+  .responsive-box {
+    background-color: #d4edda; /* Transitions to soft green tint on desktops */
+    border-color: #28a745;
+    max-width: 800px;
+    margin: 0 auto; /* Centers layout box horizontally inside wide monitors */
+  }
+}
 
