@@ -15,59 +15,29 @@
   <div class="box-model-demo">
     Box Model Content Area
   </div>
-<!-- ==========================================================================
-     HTML SECTION - QUESTION 6.2: PROFILE CARDS WITH TWO COLOUR VERSIONS
-     ========================================================================== -->
+
+<!-- ==========================================
+     HTML - QUESTION 6.2: PROFILE CARDS WITH TWO COLOUR VERSIONS
+     ========================================== -->
 <main class="main-container">
 
-  <!-- Color Version 1: Light Theme Card -->
+  <!-- Version 1: Light Theme Card Structure -->
   <section class="profile-card profile-card--light">
     <div class="profile-card__avatar-container">
-      <!-- 6.2: Perfect Circle Avatar Image Element -->
       <img class="profile-card__avatar" src="https://picsum.photos" alt="User Light Avatar">
     </div>
     <h2 class="profile-card__name">Aman Sharma (Light Version)</h2>
   </section>
 
-  <!-- Color Version 2: Dark Theme Card -->
+  <!-- Version 2: Dark Theme Card Structure -->
   <section class="profile-card profile-card--dark">
     <div class="profile-card__avatar-container">
-      <!-- 6.2: Perfect Circle Avatar Image Element -->
       <img class="profile-card__avatar" src="https://picsum.photos?random=1" alt="User Dark Avatar">
     </div>
     <h2 class="profile-card__name">Rohit Verma (Dark Version)</h2>
   </section>
 
 </main>
-
-<!-- ==========================================================================
-     HTML SECTION - QUESTION 6.3: SCROLLABLE BIO BOX CONTAINERS
-     ========================================================================== -->
-
-<!-- Light Card Bio Box Container -->
-<div class="profile-card__bio">
-  <p>This is the scrollable text segment for the light theme bio component layout. By combining a fixed height constraint alongside auto-overflow instructions in our stylesheets, this text remains cleanly contained. Users can effortlessly scroll through this text area to read the complete biography description safely without messing up the clean visual alignment of the card layout structure.</p>
-</div>
-
-<!-- Dark Card Bio Box Container -->
-<div class="profile-card__bio">
-  <p>This is the scrollable text segment for the dark theme bio component layout. Just like the light card variation above, this element maintains a tight structural layout boundary. The explicit overflow configuration automatically manages larger text blocks dynamically so that it yields functional scrollbars inside production runtime tests on your local machine browser workspace.</p>
-</div>
-
-<!-- ==========================================================================
-     HTML SECTION - QUESTION 6.4: STICKY TOP BAR
-     (This remains locked at the top of the browser view when scrolling)
-     ========================================================================== -->
-<header class="app-header">
-  <h1 class="app-header__title">Profile Dashboard</h1>
-</header>
-
-
-<!-- ==========================================================================
-     HTML SECTION - QUESTION 6.4: FIXED POSITION BUTTON (+)
-     (This stays pinned to the bottom-right corner of the viewport screen)
-     ========================================================================== -->
-<button class="fixed-add-button" aria-label="Add New Item">+</button>
 
 
 </body>
