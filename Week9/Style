@@ -27,3 +27,33 @@
   }
 }
 
+/* --- Base Root Sizing Specification --- */
+html {
+  font-size: 16px; /* Configures base 1rem metric equivalent to 100% font sizing */
+}
+
+/* --- Fluid Responsive Asset Sizing --- */
+.fluid-img {
+  max-width: 100%; /* Restricts raw image width dimension from breaking container boundaries */
+  height: auto; /* Forces proportional aspect ratio scaling on window resize */
+  display: block;
+}
+
+/* --- Scalable rem Typography --- */
+.content-card {
+  padding: 1.5rem; /* Equivalent to 24px structural spacing padding bounds */
+  border: 0.0625rem solid #ccc;
+}
+
+.main-heading {
+  font-size: 2rem; /* Scaled precisely to 32px text size rules */
+  margin-bottom: 1rem;
+}
+
+.sub-text {
+  font-size: 1rem; /* Scaled precisely to standard 16px text base rules */
+  line-height: 1.5rem;
+}
+
+
+
