@@ -31,6 +31,23 @@
   border-radius: 6px;
 }
 
+.page-layout {
+  display: grid;
+  gap: 10px;
+  padding: 15px;
+  grid-template-columns: 200px 1fr; /* Sidebar width is 200px, main takes remaining space */
+  /* Assigns explicit visual naming blocks to layout sections */
+  grid-template-areas:
+    "head head"
+    "side main"
+    "foot foot";
+}
+
+.header-area { grid-area: head; background-color: #f8d7da; padding: 20px; }
+.sidebar-area { grid-area: side; background-color: #d1ecf1; padding: 20px; }
+.main-area { grid-area: main; background-color: #d4edda; padding: 20px; min-height: 200px; }
+.footer-area { grid-area: foot; background-color: #fff3cd; padding: 20px; }
+
 
 
 
