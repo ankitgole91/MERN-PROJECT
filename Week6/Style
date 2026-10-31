@@ -1,4 +1,6 @@
 
+  <style>
+
 <!--CSS - QUESTION 6.1: BOX-SIZING & BOX MODEL EXPERIMENTATION -->
 
 /* Setting border-box globally so padding and border stay inside the width */
@@ -172,11 +174,9 @@ img {
 button {
   font-family: inherit;
   outline: none;
-}
+}<
 
-
-
-
+style/>
 
 
 
