@@ -69,7 +69,27 @@
   background-color: #f4f4f4;
 }
 
+/* Mobile Devices (Up to 600px width layout viewports) */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column; /* Re-aligns navigation items in a single vertical stack column */
+    gap: 10px;
+  }
+}
 
+/* Tablet Devices (Up to 900px width layout viewports) */
+@media (max-width: 900px) {
+  .banner h1 {
+    font-size: 2rem; /* Proportionately scales down text sizing for medium tablets */
+  }
+}
+
+/* Standard Desktop Monitors (901px width and larger desktop viewports) */
+@media (min-width: 901px) {
+  .navbar {
+    padding: 20px 50px; /* Expands spacing properties gracefully on larger screen monitors */
+  }
+}
 
 
 </style>
