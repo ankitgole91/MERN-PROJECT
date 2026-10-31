@@ -53,6 +53,17 @@
   <p>This is the scrollable text segment for the dark theme bio component layout. Just like the light card variation above, this element maintains a tight structural layout boundary. The explicit overflow configuration automatically manages larger text blocks dynamically so that it yields functional scrollbars inside production runtime tests on your local machine browser workspace.</p>
 </div>
 
+<!-- ==========================================
+     HTML - QUESTION 6.4: STICKY TOP BAR
+     ========================================== -->
+<header class="app-header">
+  <h1 class="app-header__title">Profile Dashboard</h1>
+</header>
+
+<!-- ==========================================
+     HTML - QUESTION 6.4: FIXED POSITION BUTTON (+)
+     ========================================== -->
+<button class="fixed-add-button" aria-label="Add New Item">+</button>
 
 
 
