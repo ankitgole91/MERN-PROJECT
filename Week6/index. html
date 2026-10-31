@@ -66,6 +66,20 @@
 <button class="fixed-add-button" aria-label="Add New Item">+</button>
 
 
+<!-- ==========================================
+     HTML - QUESTION 6.5: CLEAN ARCHITECTURE WITH SEMANTIC TAGS
+     ========================================== -->
+
+<!-- Use of proper hierarchy instead of generic unorganized tags -->
+<header class="app-header">
+  <!-- Brand Heading -->
+</header>
+
+<main class="main-container">
+  <section class="profile-card">
+    <!-- Clean, structured child elements -->
+  </section>
+</main>
 
 </body>
 </html>
