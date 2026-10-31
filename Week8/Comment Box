@@ -1,1 +1,16 @@
 
+### **Answer 8.5: DevTools Inspection Report**
+
+1. Verification Procedure:
+   - Opened the source markup sheet in a Chromium-based browser window.
+   - Pressed F12 to invoke the active browser Developer Tools drawer panel.
+   - Navigated directly into the Layout inspector pane located under the primary Elements tab.
+   
+2. Structural Layout Discoveries:
+   - Toggled the browser 'Grid overlay' indicator on target containers.
+   - Confirmed layout structures display accurately scaled tracking tracks.
+   - Verified implicit structural column wrapping updates fluidly without clipping boundaries.
+   - Validated cell structural grids register nested inner-component inline Flexbox parameters smoothly.
+   
+3. Final Declaration Statement:
+   "The underlying grid tracks have been audited under active inspector overlays. The grid matrix remains structurally intact across all relative scaling changes. No cross-axis alignment errors or fractional overlapping defects were logged."
