@@ -39,6 +39,22 @@
 
 </main>
 
+<!-- ==========================================
+     HTML - QUESTION 6.3: SCROLLABLE BIO BOX CONTAINERS
+     ========================================== -->
+
+<!-- Light Theme Bio Box -->
+<div class="profile-card__bio">
+  <p>This is the scrollable text segment for the light theme bio component layout. By combining a fixed height constraint alongside auto-overflow instructions in our stylesheets, this text remains cleanly contained. Users can effortlessly scroll through this text area to read the complete biography description safely without messing up the clean visual alignment of the card layout structure.</p>
+</div>
+
+<!-- Dark Theme Bio Box -->
+<div class="profile-card__bio">
+  <p>This is the scrollable text segment for the dark theme bio component layout. Just like the light card variation above, this element maintains a tight structural layout boundary. The explicit overflow configuration automatically manages larger text blocks dynamically so that it yields functional scrollbars inside production runtime tests on your local machine browser workspace.</p>
+</div>
+
+
+
 
 </body>
 </html>
