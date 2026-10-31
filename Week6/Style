@@ -30,9 +30,8 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* ==========================================================================
-   CSS - QUESTION 6.2: PROFILE CARD LAYOUT, ROUND CORNERS & COLOUR VERSIONS
-   ========================================================================== */
+
+   <!--PROFILE CARD LAYOUT, ROUND CORNERS & COLOUR VERSION -->
 
 /* Layout arrangement for card grid placement */
 .main-container {
@@ -141,6 +140,38 @@ body {
 
 .fixed-add-button:hover {
   background-color: #218838;
+}
+
+/* ==========================================================================
+   CSS - QUESTION 6.5: CODE CLEAN UP, ACCESSIBILITY & GLOBAL RESET
+   ========================================================================== */
+
+/* 1. Resetting margins, paddings and forcing border-box globally */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Cleaning typography and setting smooth rendering layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f9;
+  color: #333333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 3. Ensuring seamless image loading layout bounds */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* 4. Cleaning browser defaults for custom user-interactive controls */
+button {
+  font-family: inherit;
+  outline: none;
 }
 
 
