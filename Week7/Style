@@ -21,6 +21,15 @@
   gap: 15px; /* Space between individual navigation menu links */
 }
 
+.banner {
+  display: flex;
+  flex-direction: column; /* Stacks the content heading and paragraph text vertically */
+  justify-content: center; /* Vertically centers the content within the container */
+  align-items: center; /* Horizontally centers the content within the container */
+  height: 60vh; /* Allocates adequate viewport height for the banner area */
+  background-color: #f4f4f4;
+  text-align: center;
+}
 
 
 
