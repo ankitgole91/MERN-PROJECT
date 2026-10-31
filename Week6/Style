@@ -1,1 +1,30 @@
+<!--CSS - QUESTION 6.1: BOX-SIZING & BOX MODEL EXPERIMENTATION -->
 
+/* Setting border-box globally so padding and border stay inside the width */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  padding: 40px;
+}
+
+/* Playing with width, margin, border, and padding */
+.box-model-demo {
+  width: 300px;
+  height: 150px;
+  
+  margin: 30px;              /* Outer space (Margin) */
+  border: 10px solid #1a73e8; /* Frame size and color (Border) */
+  padding: 20px;             /* Inner space around text (Padding) */
+  
+  background-color: #ffffff;
+  color: #333333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
