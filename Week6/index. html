@@ -15,6 +15,32 @@
   <div class="box-model-demo">
     Box Model Content Area
   </div>
+<!-- ==========================================================================
+     HTML SECTION - QUESTION 6.2: PROFILE CARDS WITH TWO COLOUR VERSIONS
+     ========================================================================== -->
+<main class="main-container">
+
+  <!-- Color Version 1: Light Theme Card -->
+  <section class="profile-card profile-card--light">
+    <div class="profile-card__avatar-container">
+      <!-- 6.2: Perfect Circle Avatar Image Element -->
+      <img class="profile-card__avatar" src="https://picsum.photos" alt="User Light Avatar">
+    </div>
+    <h2 class="profile-card__name">Aman Sharma (Light Version)</h2>
+  </section>
+
+  <!-- Color Version 2: Dark Theme Card -->
+  <section class="profile-card profile-card--dark">
+    <div class="profile-card__avatar-container">
+      <!-- 6.2: Perfect Circle Avatar Image Element -->
+      <img class="profile-card__avatar" src="https://picsum.photos?random=1" alt="User Dark Avatar">
+    </div>
+    <h2 class="profile-card__name">Rohit Verma (Dark Version)</h2>
+  </section>
+
+</main>
+
+
 
 </body>
 </html>
