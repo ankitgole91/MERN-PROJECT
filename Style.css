@@ -1,0 +1,104 @@
+<style>
+
+/* --- BASE STYLES: Mobile Screens First (Under 768px width) --- */
+.responsive-box {
+  padding: 20px;
+  background-color: #f8d7da; /* Default soft pink tint for mobile screens */
+  text-align: center;
+  border: 2px solid #dc3545;
+}
+
+/* --- TABLET BREAKPOINT: Scaled at 768px layout viewports and above --- */
+@media (min-width: 768px) {
+  .responsive-box {
+    background-color: #d1ecf1; /* Transitions to light cyan tint on tablets */
+    border-color: #17a2b8;
+    padding: 40px;
+  }
+}
+
+/* --- DESKTOP BREAKPOINT: Scaled at 1024px layout viewports and above --- */
+@media (min-width: 1024px) {
+  .responsive-box {
+    background-color: #d4edda; /* Transitions to soft green tint on desktops */
+    border-color: #28a745;
+    max-width: 800px;
+    margin: 0 auto; /* Centers layout box horizontally inside wide monitors */
+  }
+}
+
+/* --- Base Root Sizing Specification --- */
+html {
+  font-size: 16px; /* Configures base 1rem metric equivalent to 100% font sizing */
+}
+
+/* --- Fluid Responsive Asset Sizing --- */
+.fluid-img {
+  max-width: 100%; /* Restricts raw image width dimension from breaking container boundaries */
+  height: auto; /* Forces proportional aspect ratio scaling on window resize */
+  display: block;
+}
+
+/* --- Scalable rem Typography --- */
+.content-card {
+  padding: 1.5rem; /* Equivalent to 24px structural spacing padding bounds */
+  border: 0.0625rem solid #ccc;
+}
+
+.main-heading {
+  font-size: 2rem; /* Scaled precisely to 32px text size rules */
+  margin-bottom: 1rem;
+}
+
+.sub-text {
+  font-size: 1rem; /* Scaled precisely to standard 16px text base rules */
+  line-height: 1.5rem;
+}
+
+/* --- 1. Flexbox Navigation Rules --- */
+.flex-navbar {
+  display: flex; /* Initiates a flex container environment context */
+  justify-content: space-between; /* Positions brand on extreme left and menu items on right */
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #212529;
+  color: white;
+}
+
+.menu-items {
+  display: flex;
+  list-style: none;
+  gap: 1.5rem; /* Generates proportional layout item separation gaps */
+}
+
+.menu-items a { color: white; text-decoration: none; }
+
+/* --- 2. CSS Grid Multi-Track Page Rules (Mobile-First setup scaling to Desktop) --- */
+.grid-page-frame {
+  display: grid;
+  grid-template-columns: 1fr; /* Defaults to a single full-width layout stack tracking on mobile */
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+/* Structural shifts to split layout track columns for larger display monitor rows */
+@media (min-width: 768px) {
+  .grid-page-frame {
+    grid-template-columns: 250px 1fr; /* Allocates rigid sidebar layout tracking beside flexible view space */
+  }
+}
+
+.sidebar-section { background-color: #e2e3e5; padding: 1rem; }
+.main-section { background-color: #fff; border: 1px solid #dee2e6; padding: 1rem; }
+
+
+
+@media (max-width: 768px) {
+  body { padding: 10px; }
+  .container, div { width: 100% !important; }
+  img { max-width: 100%; height: auto; }
+}
+
+
+
+
